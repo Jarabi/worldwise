@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import CountryItem from './CountryItem';
 import Message from './Message';
 import Spinner from './Spinner';
-import { useCities } from '../contexts/CitiexContext';
+import { useCities } from '../contexts/CitiesContext';
 import styles from './CountryList.module.css';
 
 function CountryList() {

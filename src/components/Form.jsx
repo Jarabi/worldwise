@@ -1,7 +1,7 @@
 // "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
 
 import { useEffect, useState } from 'react';
-import { useCities } from '../contexts/CitiexContext';
+import { useCities } from '../contexts/CitiesContext';
 import { useUrlPosition } from '../hooks/useUrlPosition';
 import Button from './Button';
 import BackButton from './BackButton';
